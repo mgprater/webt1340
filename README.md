@@ -18,3 +18,13 @@
 
    <li><a href="project5/aos-brochure.ai">Project 5 - Chapter work</a></li>
 <ul>
+
+<h2>Project7</h2>
+
+<ul>
+
+   <li><a href="project7/favorites-graph.ai">Project 7 - Chapter work, pie chart</a></li>
+   <li><a href="project7/price-graph2.ai">Project 7 - Chapter work, line graph</a></li>
+   <li><a href="project7/reasons-graph.ai">Project 7 - Chapter work, bar graph</a></li>
+<ul>
+
