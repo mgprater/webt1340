@@ -20,7 +20,6 @@
 <ul>
 
 <h2>Project7</h2>
-
 <ul>
 
    <li><a href="project7/favorites-graph.ai">Project 7 - Chapter work, pie chart</a></li>
