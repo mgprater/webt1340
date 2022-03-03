@@ -1,0 +1,139 @@
+/* Global Styles */
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1, h2, h3, p, footer {
+    color: #707070;
+    text-align: center;
+}
+
+#container {
+    background-color:#D8D8D8;
+}
+/* End Global Styles */
+
+/* Mobile Styles */
+
+header {
+    background-image: url('.../images/beach1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: middle;
+    background-color: #BBCBBD;
+}
+
+header img {
+    width: 40%;
+    padding-top: 20px;
+}
+
+header h1 {
+    padding-bottom: 10px;
+}
+
+nav {
+    background-color:#D8D8D8;
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    color: #D8D8D8;
+    text-decoration: none;
+    font-size: 1.2 em;
+    height: 40px;
+    line-height: 40px;
+}
+
+nav li a:hover {
+    background-color: #B0C3B4;
+    color:#D8D8D8; 
+}
+
+main {
+    background-color: #D8D8D8;
+    padding: 10px;
+}
+
+#image_gallery img {
+    margin: 10px 0;
+}
+
+footer {
+    padding: 40px 0;
+}
+
+/* End Mobile Styles */
+
+/* Tablet Styles */
+
+@media (min-width: 768px) {
+    header {
+        clear: both;
+    }
+
+    header img {
+        float: center;
+        width: 25%;
+    }
+
+    header h1 {
+        line-height: 225px;
+        font-size: 3em;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 150px;
+    }
+
+    #image_gallery {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #image_gallery img {
+        width: 47.4%;
+        margin: 10px;
+
+}
+/* End Tablet Styles */
+
+/* Desktop Styles */
+
+@media (min-width:1024 px) {
+    header img {
+        width: 20%;
+    }
+
+    header h1 { 
+        font-size: 4em;
+    }
+
+    nav li a {
+        width: 200px;
+        margin: 0 10px;
+    }
+
+    #image_gallery img {
+        width: 31.8%;
+    }
+}
+/* End Desktop Styles */
